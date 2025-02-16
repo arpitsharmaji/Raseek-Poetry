@@ -42,11 +42,7 @@
 
 }
 
-.mainimage {
-    display: grid;
-    grid-template-columns: 2fr; /* 1 fraction of the container width */
-    justify-content: center;
-}
+
 
 #raseekbig {
     width: 100%;
