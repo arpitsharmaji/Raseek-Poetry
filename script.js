@@ -9,7 +9,7 @@ setInterval(function(){
     setTimeout(() => {
         index = (index + 1) % images.length; // Move to next image in sequence
         image.src = images[index]; // Change image
-        image.style.opacity = 1; // Fade in effect
+        image.style.opacity = 0; // Fade in effect
     }, 1000); // Adjust delay to match transition time
 
 }, 4000);
