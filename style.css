@@ -42,10 +42,17 @@
 
 }
 
-#raseekbig{
+.mainimage {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 fraction of the container width */
+    justify-content: center;
+}
+
+#raseekbig {
     width: 100%;
-    /* margin-top: 10px; */
-    height: 20%;
+    max-width: 1903px; /* Prevents stretching beyond this size */
+    height: auto; /* Maintains aspect ratio */
+    transition: opacity 1.5s ease-in-out;
 }
 
 #navlist{
