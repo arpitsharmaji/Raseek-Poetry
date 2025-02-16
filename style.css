@@ -44,7 +44,7 @@
 
 .mainimage {
     display: grid;
-    grid-template-columns: 1fr; /* 1 fraction of the container width */
+    grid-template-columns: 2fr; /* 1 fraction of the container width */
     justify-content: center;
 }
 
