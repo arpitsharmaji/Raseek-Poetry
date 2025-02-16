@@ -46,9 +46,7 @@
 
 #raseekbig {
     width: 100%;
-    max-width: 1903px; /* Prevents stretching beyond this size */
     height: 20%;
-    object-fit: cover;
     transition: opacity 1.5s ease-in-out;
 }
 
