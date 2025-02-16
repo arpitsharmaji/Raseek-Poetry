@@ -1,5 +1,5 @@
 let image = document.getElementById("raseekbig");
-let images = ["Raseek main image2.jpg", "image2.jpg", "image3.jpg", "image4.jpg"];
+let images = ["Raseek main image2.jpg", "Raseek Main 2.jpg", "image3.jpg", "image4.jpg","image5.jpg"];
 let index = 0;
 
 // Set the initial image
@@ -11,7 +11,7 @@ setInterval(function () {
     setTimeout(() => {
         index = (index + 1) % images.length; // Move to next image in sequence
         image.src = images[index]; // Change image
-        image.style.opacity = 1; // Fade in effect
-    }, 1000); // Change after fade-out completes
+        image.style.opacity = 0; // Fade in effect
+    }, 0); // Change after fade-out completes
 
 }, 4000);
