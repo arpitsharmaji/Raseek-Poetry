@@ -1,4 +1,4 @@
-let image = document.getElementById("mainimage");
+let image = document.getElementById("raseekbig");
 let images = ["image1.jpg","Raseek Main 2.jpg","image3.jpg","image4.jpg","image5.jpg"];
 let index = 0; // Start from first image
 
