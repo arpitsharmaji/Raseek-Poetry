@@ -315,6 +315,7 @@
     width: 40%;
     height: 80%;
     background-color: transparent;
+    overflow: hidden;
 }
 
 
@@ -327,15 +328,18 @@
     margin-bottom: 3rem;
     background-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
 }
 
 .photocontainer image{
     background-color: transparent;
+    overflow: hidden;
 }
 
 .namecontainer{
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 .namecontainer h2{
