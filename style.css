@@ -324,7 +324,6 @@
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    overflow: hidden;
     margin-bottom: 3rem;
     background-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -631,8 +630,6 @@
     
     }
 
-    .recommendedpoetscontainer{
-        position: fixed;
 
     .recommendedpoets{
         height: 37%;
