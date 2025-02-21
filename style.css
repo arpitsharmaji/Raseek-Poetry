@@ -296,6 +296,154 @@
     /* width: 100%; */
 }
 
+.recommendedpoets ul{
+    display: flex;
+    justify-content:space-evenly;
+    width: 110rem;
+    background-color: transparent;
+
+}
+
+.recommmendedpoetscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 80%;
+    background-color: transparent;
+}
+
+
+
+
+.photocontainer{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photocontainer image{
+    background-color: transparent;
+}
+
+.namecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.namecontainer h2{
+    background-color: transparent;
+    color: #000;
+    cursor: default;
+    font-family: 'merriweatherheavy', 'NotoDevanagari', 'NotoNastaliqUrdu';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 800;
+}
+
+
+.recommmendedpoets h1{
+    justify-content: center;
+    letter-spacing: 500px;
+    text-align: none;
+    font-size: 1.11vw;
+    text-decoration: none;
+    display: inline;
+    background-color: whitesmoke;
+}
+
+/* .recommmendedpoets{
+    height: 500px;
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+} */
+
+
+
+
+
+
+.recommendedpoets{
+    height: 12%;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+     
+
+#Imagee{
+    background-color: transparent;
+}
+
+.recommmendedpoetscontainer ul{
+    height: 80%;
+    width: 80%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-content:flex-start; */
+    background-color: transparent;
+}
+
+.tempcontainerheading ul li{
+    font: inherit;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+
+
+
+
+/* #recommendedpoetsimagecontainer{
+    height: 100px;
+    width: 300px;
+    background-color: #8BC6EC;
+    border: solid black 1px;
+
+}
+
+#recommendedpoetsimagecontainer2{
+    height: 100px;
+    width: 300px;
+    background-color: #8BC6EC;
+
+}
+
+#recommendedpoetsimagecontainer3{
+    height: 200px;
+    width: 300px;
+    background-color: #8BC6EC;
+
+} */
+
+
 
 #youngpoetsid{
     /* margin-left: 26.77vw;
