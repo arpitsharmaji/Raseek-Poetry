@@ -1,0 +1,843 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-flow:wrap;
+}
+
+#logo{
+    margin: 2px;
+}
+
+/* .header{
+    border: 1px solid white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0px;
+    background-color: white;
+    position: fixed;
+} */
+
+.header ul{
+    font: inherit;
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-stretch: 100%;
+    position: fixed;
+    width: 100vw;
+
+}
+
+#searchbar{
+    /* display: flex; */
+    order: 500;
+
+}
+
+#raseekbig{
+    margin-top: 50px;
+    width: 100%;
+    /* margin-top: 10px; */
+    height: 20%;
+}
+
+#navlist{
+    order: 200;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+#navlist a{
+    font-size: 6px;
+    font-weight: 400;
+    text-decoration: none;
+    font-stretch: 100%;
+    color: #000;
+    /* padding: 0 4px; */
+    margin: 0 8px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font: inherit;
+    vertical-align: baseline;
+}
+.poetsalbums{
+    margin-top: 4.166vw;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    width: 100%;
+    height: 31.25vw;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    
+}
+.poetsalbums ul{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    list-style: none;
+    overflow:scroll;
+
+}
+
+.poetsalbums ul li img{
+    overflow: hidden;
+
+}
+
+#writerjaun{
+    display: flex;
+    justify-content: center;
+    font-size: 1.111vw;
+}
+#poetscollection{
+    display: flex;
+    margin-top: 5.94vw;
+    justify-content: center;
+    background-color: whitesmoke;
+    letter-spacing: 0.208vw;
+    text-align: none;
+    font-size: 1.11vw;
+    text-decoration: none;
+}
+
+.smallheading{
+    margin-top: 3.47vw;
+    font: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: whitesmoke;
+    letter-spacing: 0.3472vw;
+    margin-bottom: 2.916vw;
+    font-weight: normal;
+    font-size: 1.25vw;
+    line-height: 1;
+    color: black;
+    padding-left: 1.38vw;
+    padding-right: 1.38vw;
+}
+.quiz h1{
+    margin-top: 0.6944vw;
+    text-align: center;
+    letter-spacing: 0.34722vw;
+    text-transform: uppercase;
+    color: palevioletred;
+    margin-bottom: 3.472vw;
+    font-size: 1.2055em;  
+}
+
+.quizcontainer{
+    margin: auto;
+    height: 20.8333vw;
+    min-height: 200px;
+    width: 80%;
+    background-color: rgb(247, 242, 235);
+
+}
+
+#mainquestion{
+    /* padding-top: 5px; */
+    color: black;
+    letter-spacing: 2px;
+    text-transform: none;
+    font-weight: lighter;
+    background-color: rgb(247, 242, 235);
+}
+#option1{
+    /* margin-left: 390px; */
+    margin: auto;
+    margin-top: 25px;
+    height: 1.95vw;
+    min-height: 20px;
+    width: 31.25vw;
+    min-width: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    border: 1px solid #b4b4b4;
+    /* border-color: black; */
+    border-radius: 5px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-y:hidden;
+    max-height: fit-content;
+}
+#option2{
+    margin: auto;
+    margin-top: 1.7361vw;
+    height: 1.95vw;
+    min-height: 20px;
+    width: 31.25vw;
+    min-width: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    border: 1px solid #b4b4b4;
+    /* border-color: black; */
+    border-radius: 5px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-y:hidden;
+    max-height: fit-content;
+
+}
+#option3{
+    /* margin-left: 390px; */
+    margin: auto;
+    margin-top: 1.7361vw;
+    height: 1.95vw;
+    min-height: 20px;
+    width: 31.25vw;
+    min-width: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    border: 1px solid #b4b4b4;
+    /* border-color: black; */
+    border-radius: 5px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-y:hidden;
+    max-height: fit-content;
+
+}
+#option4{
+    /* margin-left: 390px; */
+    margin: auto;
+    margin-top: 1.7361vw;
+    height: 1.95vw;
+    min-height: 20px;
+    width: 31.25vw;
+    min-width: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    border: 1px solid #b4b4b4;
+    /* border-color: black; */
+    border-radius: 5px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-y:hidden;
+    max-height: fit-content;
+
+}
+
+#heading{
+    text-align: center;
+    font-size: 1.527vw;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-style: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shayari1{
+    margin-top: 1.38vw;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8vw;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.shayari1{
+    line-height: 5.2083vw;
+    letter-spacing: 0.208vw;
+} 
+
+#writername3{
+    font-style: inherit;
+    font-weight: 100;
+    letter-spacing: 0.208vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.38vw;
+    color: black;
+    text-decoration:none;
+
+
+}
+
+
+
+.recommendedpoets ul{
+    display: flex;
+    justify-content:space-evenly;
+    width: 110rem;
+    background-color: transparent;
+
+}
+
+.recommmendedpoetscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 80%;
+    background-color: transparent;
+}
+
+
+
+
+.photocontainer{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    background-color: transparent;
+
+}
+
+.photocontainer img{
+    background-color: transparent;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.namecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.namecontainer h2{
+    background-color: transparent;
+    color: #000;
+    cursor: default;
+    font-family: 'merriweatherheavy', 'NotoDevanagari', 'NotoNastaliqUrdu';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 800;
+}
+
+
+.recommmendedpoets h1{
+    justify-content: center;
+    letter-spacing: 500px;
+    text-align: none;
+    font-size: 1.11vw;
+    text-decoration: none;
+    display: inline;
+    background-color: whitesmoke;
+}
+
+/* .recommmendedpoets{
+    height: 500px;
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+} */
+
+
+
+
+
+
+.recommendedpoets{
+    height: 12%;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+     
+
+#imagee{
+    background-color: transparent;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+    
+}
+
+.recommmendedpoetscontainer ul{
+    height: 80%;
+    width: 80%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-content:flex-start; */
+    background-color: transparent;
+}
+
+.tempcontainerheading ul li{
+    font: inherit;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+
+
+
+
+/* #recommendedpoetsimagecontainer{
+    height: 100px;
+    width: 300px;
+    background-color: #8BC6EC;
+    border: solid black 1px;
+
+}
+
+#recommendedpoetsimagecontainer2{
+    height: 100px;
+    width: 300px;
+    background-color: #8BC6EC;
+
+}
+
+#recommendedpoetsimagecontainer3{
+    height: 200px;
+    width: 300px;
+    background-color: #8BC6EC;
+
+} */
+
+
+
+#youngpoetsid{
+    /* margin-left: 26.77vw;
+    margin-right: 27.77vw; */
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+    /* height: 2.08vw; */
+    height: 13.083vw;
+    /* width: 65.7vw; */
+    width: 80%;
+    /* margin-right: 25vw;
+    margin-left: 25vw; */
+    margin: auto;
+    min-height: 90px;
+    min-width: 190px;
+    display: flex;
+}
+
+.ebookscontainer ul{
+    height: 30.7vw;
+    width: 80%;
+    /* margin-left: 5.20vw;
+    margin-right: 5.20vw; */
+    margin: auto;
+    margin-top: 15.7vw;
+    /* box-sizing: border-box; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6.94vw;
+    /* overflow-y: scroll; */
+    list-style: none;
+
+
+}
+
+
+.ebookscontainer ul li{
+    margin-left: 4.86vw;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* overflow-x: hidden; */
+    overflow:visible;
+    overflow-y: scroll;
+
+}
+.ebookscontainer ul li img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#fullebookscollection{
+    display: flex;
+    margin-top: 0.94vw;
+    justify-content: center;
+    background-color: white;
+    letter-spacing: 0.208vw;
+    text-align: none;
+    font-size: 1.11vw;
+    text-decoration: none;
+
+}
+.bestpoetcontainer{
+    height: 41.66vw;
+    width: 100%;
+    background-color: whitesmoke;
+    /* display: flex; */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.bestpoetcontainer #bestpoetimage{
+    display: flex;
+    /* justify-content: center; */
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 4.88vw;
+    height: 23%;
+    /* width: 12%; */
+    width: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* #bestpoetheading8{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+} */
+
+#bestpoetheading8{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5vw;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 12px;
+    color: #4c4c4c;
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    line-height: 1;
+
+
+}
+
+#bestpoetname9{
+    color: #000;
+    cursor: default;
+    font-family: 'merriweatherheavy', 'NotoDevanagari', 'NotoNastaliqUrdu';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 800;
+
+
+}
+
+#para{
+    margin-top: 20px;
+    color: #1a1a1a;
+    font-size: 16px;
+    /* line-height: 32px; */
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+    background-color: whitesmoke;
+}
+
+#mainpoetspoetry{
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 2;
+    display: inline-block;
+    padding: 0 0 0 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    white-space: pre;
+    background-color: whitesmoke;
+}
+
+.doyouknow{
+    height: 500px;
+    width: 75%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); 
+    display: flex; 
+    justify-content: center;
+
+}
+.doyouknowcontent{
+    height: 400px;
+    width: 75%;
+    background-color: transparent;
+    margin: auto;
+    /* display: flex; */
+    align-content: center;
+    letter-spacing: 3px;
+
+
+
+
+
+}
+
+
+#doyouknow87{
+    text-align: center;
+    background-color: transparent; 
+    margin-bottom: 50px;
+    font-size: larger;
+    font-weight: 800;
+    color: azure;
+
+
+}
+
+#doyouknowtext{
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+#search{
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 34px;
+    width: 100%;
+    display: block;
+}
+
+#ebooks{
+    height: 80%;
+    width: 80%;
+    background-color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .header ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shayari1{
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+    #writerjaun{
+        font-size: 8px;
+    }
+    #navlist{
+        display: flex;
+        order: 500;
+        justify-content: space-between;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 5px;
+    }
+    #navlist a{
+        margin: 0px 2px;
+        font-size: 12px;
+        /* justify-content: space-between; */
+    }
+
+    #search{
+        width: 95%;
+        margin-left: 1.994vw;
+        /* margin-right: 0.694vw; */
+        height: 26px;
+    }
+
+    #mainquestion{
+        margin-top: 10px;
+    }
+
+    .header{
+        box-sizing: border-box;
+        /* display: flex; */
+        border: 1px solid white;
+        min-width: 100%;
+    
+    }
+
+
+        
+    #logo img{
+        margin-left: 10px;
+        height: 25px;
+        width: 55px;
+    }
+
+    #raseekbig{
+        margin-top: 100px;
+        /* max-width: 100%; */
+        width: 100%;
+        /* height: 100%; */
+
+    }
+
+    .poetsalbums ul{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+
+    .poetsalbums li img{
+        height: 82%;
+        width: 90%;
+
+
+    }
+    .smallheading{
+        font-size: 12px;
+    }
+    .quiz h1{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    #heading{
+        font-size: 12px;
+    }
+
+    #poetscollection{
+        font-size: 10px;
+    }
+
+    #writername3{
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #writername4{
+        font-size: 10px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #bestpoetimage{
+        height: 20%;
+        width: 20%;
+    }
+
+    #fullebookscollection{
+        font-size: 10px;
+    }
+
+    .tempcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recommendedpoets ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        width: 110rem;
+        background-color: transparent;
+
+    
+    }
+
+    .recommendedpoets{
+        height: 37%;
+        width: 65%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        background-color: transparent;
+    
+    }
+
+    .recommmendedpoetscontainer{
+        position: fixed;
+    }
+
+    .photocontainer{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+  }
+
+  .namecontainer{
+    margin-bottom: 4rem;
+  }
+
+}
+  @media only screen and (max-width: 1100px) {
+    #raseekbig{
+        width: 100%;
+        height: 15%;
+    }
+
+    /* .header{
+        box-sizing: border-box;
+        /* display: flex; */
+        /* border: 1px solid white;
+        width: 100%;
+        height: auto; */
+
+  }
