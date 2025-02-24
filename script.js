@@ -1,5 +1,5 @@
 let image = document.getElementById("raseekbig");
-let images = ["raseek main image2.jpg", "Raseek Main 2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"];
+let images = ["Raseek main image2.jpg", "Raseek Main 2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"];
 let index = 0; // Start from the first image
 
 setInterval(function () {
